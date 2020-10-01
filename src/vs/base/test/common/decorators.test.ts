@@ -165,7 +165,7 @@ suite('Decorators', () => {
 				}
 
 				@throttle(
-					100,
+					1000,
 					(a: number, b: number) => a + b,
 					() => 0
 				)
